@@ -1,0 +1,141 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+* {
+  border: 0px;
+}
+
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 1px;
+  /* border: 3px solid #f1f1f1; */
+  z-index: 9;
+}
+
+.form-containerr {
+  
+  width: 450px;
+  background-color: white ;
+  height: 680px;
+  overflow: scroll;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  padding: 20px;
+  /* margin-top: 10px; */
+
+}
+.cancel {
+  background-color: rgba(255, 255, 255, 0);
+  color: black;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+
+}
+
+.form-container .btn:hover,
+.open-button:hover {
+  opacity: 1;
+} 
+
+.carttitle{
+    color: black;
+    font-family: lato;
+    font-size: 20px;
+    font-weight: 700;
+    line-height:30px;
+}
+.summary-div1{
+    background-color:rgb(65, 117, 5);
+    font-family : Lato;
+    font-size:15px;
+    font-weight:400;
+    line-height:22.5px;
+    color: white;
+    text-align: center;
+   
+}
+
+.cartNme1{
+    font-family: lato;
+    font-size:15px;
+    font-weight:700;
+    padding-left: 10px;
+
+}
+.cartflex1{
+    display: flex;
+    margin-top: -20px; 
+    padding-left: 10px;
+    /* border: 1px solid red;    */
+}
+
+.cp1{
+    margin-right: 15px;
+    /* border: 1px solid; */
+    font-family : Lato;
+    font-size:13px;
+    font-weight:400;
+    line-height:19.5px;
+}
+
+.cp3{
+    margin-right: 10px;
+    color:rgb(228, 29, 54);
+}
+
+#Container-cart{
+    /* border: 1px solid red; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding-top: 1.5px;
+    margin-bottom: 10px;
+}
+
+
+#billdetails{
+  border: 1px dotted;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  
+}
+
+#billdetails>div{
+  display: flex;
+  justify-content: space-between;
+  font-family : Lato;
+  font-size:12px;
+  font-weight:400;
+  line-height:18px;
+  margin:7px 0px;
+  margin-bottom: -15px; 
+}
+#procedtocheck{
+    display: flex;
+    margin: 10px solid red;
+    height: 70px;
+    width: 90%;
+}
+#leftcheck{
+    background-color: white;
+    color: black;
+    width: 40%;
+    border-radius: 10px;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+    
+}
+#rightcheck{
+    color: white;
+    background-color: rgb(228, 29, 54);
+    width: 60%;
+    border-radius: 10px;
+    margin: 5px;
+    font-size: 20px;
+}

@@ -1,0 +1,456 @@
+body
+{
+    width: 100%;
+    margin: 0px;
+}
+#header{
+    width: 100%;
+    height: 220px;
+    /* border: 1px solid red; */
+    
+    
+}
+
+#header>div{
+    margin: auto;
+    width: 100%;
+}
+
+.headerbox3{
+    height: 55%;
+    display: flex;
+    /* border: 1px solid red; */
+    width: 100%;
+    background-color: rgb(249,249,249); 
+}
+
+.headerbox3>div{
+   text-align: center;
+    /* border: 1px solid blue; */
+    height: 85%;
+    width: 110%;
+    padding-top: 10px;
+}
+
+p{
+    font-family: Lato sans-serif;
+    font-size: 15px;
+    padding: 0;
+    margin: 3px;
+}
+.headerimg1{
+    width: 60%;
+}
+
+.headerbox2{
+    display: flex;
+    text-align: left;
+    height: 25%;
+    /* border: 1px solid red; */
+    padding-top: 13px;
+}
+.headerlogoNm{
+    display: flex;
+    width: 100%;
+    height: 10px;
+    margin-right: 5%;
+}
+
+.headerlogosz{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+   
+}
+
+.headerbox2>div{
+    width: 20%;
+    height: 70%;
+    /* border: 1px solid blue; */
+    
+}
+
+input{
+    width: 150%;
+    padding: 7px;
+    background-color: rgb(247,247,247);
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 60px;
+ 
+}
+
+.headerpad{
+    padding-top: 6px;
+}
+.headerleftaline{
+    justify-content: right;
+    margin-right: 3%; 
+}
+
+.headerbox1{
+    height: 10%;
+    /* border: 1px solid blue; */
+    background-color: rgb(234,234,234);
+    display: flex;
+}
+.headerbox1>div{
+    display: flex;
+}
+.headerleftb{
+    width: 60%;
+}
+
+.headerp, .headerimg1 > div{
+    margin-left: 7px;
+}
+.headerlogo1{
+    width: 20px;
+    height: 20px;
+}
+
+.headerrightb{
+    justify-content: right;
+    
+}
+
+
+/* body{
+    background-color: rgb(247,246,246);
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#select
+        { width:80%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(12,1fr);
+            grid-template-rows: 250px 500px 400px 400px 250px 150px 500px;
+            gap:25px;
+            /* border:1px solid red; */
+            grid-template-areas:
+            "z z z z z z z z z z z z"
+            
+            "a a a a a a b b b b b b"
+            "c c c c c c d d d d d d"
+            "e e e e e e f f f f f f"
+            "g g g g g g g g g g g g"
+            "h h h h h h h h h h h h"
+            "i i i i i i i i i i i i"
+            /* "k k k k k k k k k k k k"
+            "l l l l l l l l l l l l"; */
+        }
+        #select >div:nth-child(1)
+        {
+           grid-area: z;
+           /* border: 1px solid blue; */
+
+        }
+        /* #select >div:nth-child(2)
+        {
+           grid-area: y;
+           border: 1px solid blue;
+        } */
+        #select >div:nth-child(3)
+        {
+           grid-area: a;
+           /* border: 1px solid blue; */
+
+        }
+        #select >div:nth-child(4)
+        {
+            grid-area: b;
+            /* border: 1px solid blue; */
+        }
+        #select >div:nth-child(5)
+        {
+            grid-area: c;
+            /* border: 1px solid red; */
+            background-image: url(https://s3-ap-southeast-1.amazonaws.com/licious/pdp/1566070085.8183--2019-08-1800:58:05--260);
+            background-size: cover;
+        }
+        #select > div:nth-child(6)
+        {
+            grid-area: d;
+            background-color: white;
+            
+            
+        }
+        #select > div:nth-child(7)
+        {
+            grid-area: e;
+            background-color: orange;
+            background-image: url(https://s3-ap-southeast-1.amazonaws.com/licious/recipes/re_5d55402b3f16b/recipe_img_5d5540d877e07);
+            background-size:cover;
+        }
+        #select > div:nth-child(8)
+        {
+            grid-area: f;
+            /* border: 1px solid red; */
+        }
+        #select > div:nth-child(9)
+        {
+            grid-area: g;
+            /* border: 1px solid; */
+        }
+        #select > div:nth-child(10)
+        {
+            grid-area: h;
+            /* background-color: orange; */
+            /* border: 1px solid; */
+        }
+        #select > div:nth-child(11)
+        {
+            grid-area: i;
+            /* background-color: orange; */
+        }
+        /* #select > div:nth-child(12)
+        {
+            grid-area: j;
+            background-color: orange;
+        }
+        #select > div:nth-child(13)
+        {
+            grid-area: k;
+            background-color: orange;
+        }
+        #select > div:nth-child(14)
+        {
+            grid-area: l;
+            background-color: orange;
+        } */
+        .Spread{
+            margin-left: 20px;
+            background-color: white;
+        }
+        .Spread > h2{
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+        
+        }
+        .Spread > p{
+            font-family: Calibri,Arial;
+            font-size: 14.6667px;
+            font-weight: 400;
+            color: rgb(85, 85, 85);
+            line-height: 22px;
+        }
+        #weight{
+          width:400px;
+          height:30px;
+          border-radius: 5px;
+          border:1px solid gray;
+          display: flex;
+          justify-content:space-around;
+          font-size: 14px;
+          padding-top: 16px;
+        }
+        #mrp{
+            display: flex;
+            ;
+            color: red;
+            line-height: 16px;
+        }
+        #mrp > button{
+            background-color: red;
+            color: white;
+            width: 120px;
+            height: 35px;
+            border-radius: 5px;
+            margin-left: 200px;
+            border: 0px;
+        }
+         #mrp > div:nth-child(1){
+             margin-top: 4px;
+             font-weight: bold;
+         }
+        #options{
+            display: flex;
+            flex-wrap: wrap;  
+        }
+        #options > div{
+            width:28%;
+            height: 150px;
+            /* border: 1px solid red; */
+            margin: 10px;   
+        }
+        #theway{
+            background-color: white;
+        }
+        #luc-img{
+            display: flex;
+        }
+        #waytext{
+            margin-top: -10px;
+             margin-left: 400px;
+             font-size: 25px; 
+            color: red;
+            font-weight: bold; 
+            /* border:1px solid; */
+            height: 20px;
+            width:100%;
+        }
+        #img1{
+            width:20%;
+            height:150px;
+            border-right: 1px solid green;
+            background-image: url(https://www.licious.in/img/default/landing/USP1.png);
+            background-size: cover;
+            margin-left: 10px;
+        }
+        #img1 > p{
+            margin-top: 160px;
+            text-align: center;
+            color: rgba(0, 0, 0, 0.87);
+            
+        }
+
+        #img2{
+            width:20%;
+            height:150px;
+            border-right: 1px solid green;
+            background-image:url(https://www.licious.in/img/default/landing/USP2.png);
+            background-size: cover;
+            margin-left: 10px;
+        }
+        #img2 > p{
+            margin-top: 160px;
+            text-align: center;
+            color: rgba(0, 0, 0, 0.87);
+        }
+        
+        #img3{
+            width:20%;
+            height:150px;
+            border-right: 1px solid green;
+            background-image:url(https://www.licious.in/img/default/landing/USP3.png);
+            background-size: cover;
+            margin-left: 10px;
+        }
+        #img3 > p{
+            margin-top: 160px;
+            text-align: center;
+            color: rgba(0, 0, 0, 0.87);
+        }
+
+        #img4{
+            width:20%;
+            height:150px;
+            border-right: 1px solid green;
+            background-image:url(https://www.licious.in/img/default/landing/USP4.png);
+            background-size: cover;
+            margin-left: 10px;
+        }
+        #img4 > p{
+            margin-top: 160px;
+            text-align: center;
+            color: rgba(0, 0, 0, 0.87);
+        }
+
+        #img5{
+            width:20%;
+            height:150px;
+            /* border-right: 1px solid green; */
+            background-image:url(https://www.licious.in/img/default/landing/USP5.png);
+            background-size: cover;
+            margin-left: 10px;
+        }
+        #img5 > p{
+            margin-top: 160px;
+            text-align: center;
+            color: rgba(0, 0, 0, 0.87);
+        }
+
+        #orderbloc{
+            display: flex;
+            background-color: white;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+        #orderbloc > #orderimg{
+            width:150px;
+            height:130px;
+            /* border: 1px solid; */
+            background-image: url(https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_4cyjya5ry5e/1/prod_image/1634636415.5706--2021-10-1915:10:15--1818?format=webp);
+            background-size: cover;
+            margin-left: 100px;
+        }
+        #nameord{
+            margin-left: 20px;
+            margin-top: 30px;
+            font-weight: bold;
+            font-size: 25px;
+            color:  rgb(74, 74, 74);
+            font-family:sans-serif;
+        }
+        #bottomrp{
+              margin: 35px 0px 0px 40px;
+              color: red;
+              font-weight: bold;
+
+        }
+        #rupee{
+            font-size: 30px; 
+            font-weight: bold;
+            color: red;
+            margin:20px 0px 20px 10px;
+        }
+        /* #title-list{
+            font-size: large;
+            margin-left: 20px;
+            font-weight: bold;
+
+        }
+        #info-title{
+            margin-left: 150px;
+            margin-bottom: 10px;
+            color: red;
+            font-weight: bold;
+            font-size: larger;
+            font-family: sans-serif;
+
+        }
+        #title-list > ul{
+            color: gray;
+        } */
+        #box-in{
+            margin-left: 20px;
+        }
+        #get{
+            margin-left: 130px;
+            font-size: larger;
+            color: red;
+            font-family: sans-serif;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        #btext{
+            font-weight: bold;
+            font-size: larger;
+            margin-bottom: 10px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        /* #btext > div{
+            margin-bottom: 10px;
+            font-weight: unset;
+        } */
+        #lis-item >div{
+            margin-bottom: 17px;
+            color: rgb(102, 96, 96);
+        }
+        #addto{
+            border: 0px;
+        }

@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="header.css">
+    <title>Document</title>
+    
+    <style>
+        body {
+            margin: 0px;
+        }
+
+        #container{
+            margin-left: 50px;
+            display: flex;
+            justify-content: center;
+            /* border: 1px solid; */
+        }
+        #parent_1{
+            display:block;
+            justify-content:space-between ;
+            width:400px;
+            /* margin-top: 100px; */
+            /* margin-left: -1200px; */
+            /* border: 1px solid red; */   
+        }
+​
+        #container>div{
+            width: 400px;
+            height: 80px;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+            padding-left: 10px;
+            color: rgb(228,29,54);
+            /* border: 1px solid red; */
+           
+        }
+        h5{
+           font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+           color:rgb(80,128,25);
+           margin-left: 30px;
+           margin-top: -20px;
+        }
+        img{
+            margin-top: 10px;
+        }
+        p{
+            font-size: smaller;
+            margin-top: -19px;
+            color: rgb(150,150,150);
+            margin-left: 30px;
+        }
+        h1{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        input{
+            outline: none;
+            border: white;
+        }
+        #one>div{
+            height: 510px;
+            margin-top: 20px;
+            width: 510px;
+            margin-left: -10px;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        }
+        #number{
+            margin-left: 50px;
+            border: 1px solid;
+        }
+        label{
+            margin-left: 50px;
+            margin-bottom: -50px;
+        }
+        #month{
+            margin-left: 50px;
+        }
+       #name{
+        margin-left: 50px;
+        }
+        #checkbox{
+            margin-left: 50px;
+        }
+       #cvv{
+           margin-left: 50px;
+        }
+        button{
+            color: white;
+            background-color:rgb(228,29,54);
+            border-color: whitesmoke;
+            width: 190px;
+            height: 45px;
+            border-radius: 7px;
+            margin-left: 50px;
+        }
+        #one{
+            display: flex;
+            justify-content: space-between;
+            /* border: 1px solid red; */
+            margin-left: 20px;
+            margin-top: 100px;
+            width:350px;
+            /* border:1px solid springgreen; */
+        }
+
+
+        #billdetails{
+        border: 1px dashed red;
+        width: 400px;
+        height: 300px;
+        margin-top: 120px;
+        
+        }
+
+        #billdetails>div{
+        display: flex;
+        justify-content: space-between;
+        font-family : Lato;
+        font-size:28px;
+        font-weight:400;
+        color:black;
+        padding-right: 20px;
+        margin-bottom: 20px;
+        }
+        #subt{
+            margin-top: 60px;     
+        }
+     
+
+        #finaltotal{
+            color: rgb(228, 29, 54);
+        }
+       
+
+
+
+    
+    
+    
+    </style>
+</head>
+<body>
+    <div id="header-not-use">
+        <!-- done -->
+        <div id="header1tittlebar">
+            <div class="headerbox1" >
+                <!-- <div class="headerleftb">
+                    <p class="headerp">Why Licious?</p>
+                    <P class="headerp">Download App </P>
+                    <img class="headerlogo1" src="https://www.licious.in/img/default/ios_app_icon.svg">
+                    <img class="headerlogo1" src="https://www.licious.in/img/default/android_app_icon.svg">
+                </div>
+                <div class="headerrightb">
+                    <p class="headerp">FSSC22000 Certification</p>
+                    <p class="headerp">About</p>
+                    <p class="headerp">Carrer  @Licious</p>
+                    <p class="headerp"> Contact Us</p>
+                </div> -->
+            </div>
+        </div>
+        <!-- donee -->
+        <div id="header2tittlebar">
+            <div class="headerbox2">   
+                <div class="B2C1" onclick="window.location.href='mainHome.html'">
+                    <img class="headerimg1" src="https://www.licious.in/img/default/licious-logo.svg" >
+                </div>
+        
+                <div class="headerlogoNm" >
+                    <img class="headerlogosz" src="https://www.licious.in/img/default/location_icon.svg">
+                    <select id="headerlocationtag">
+                        <option value="" >Select your location</option>
+                        <option value="Agra">Agra</option>
+                        <option value="Bangalore">Bangalore</option>
+                        <option value="Chennai">Chennai</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Hyderabad">Hyderabad</option>
+                        <option value="Nagpur">Nagpur</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Pune">Pune</option>
+                    </select>
+                </div>
+                <div id="searchbox">
+                    <input class="searchbar" type="search" placeholder="Search for any delicious product ">
+                </div>
+        
+                <div class="headerlogoNm headerleftaline" onclick="openForm()">
+                    <img class="headerlogosz" src="https://www.licious.in/img/default/cart_icon.svg">
+                    <p class="headerpad headerp" >Login</p>
+                </div>
+        
+                <div class="headerlogoNm headerleftaline" onclick="openFormm()">
+                    <img class="logosz" src="https://www.licious.in/img/default/profile_icon.svg">
+                    <span class="cart-items">(0)</span><p class="headerpad headerp">Cart</p>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+        <!-- cartItemscount -->
+    
+        <!-- <button id="dec">Decrement</button>
+        <button id="inc">Increment</button> -->
+
+    <div id="container">
+
+
+        <div id="parent_1">
+            <h2>Payment Method- Debit/Credit card</h2>
+            <div>
+                <img src="https://www.licious.in/img/default/offer.svg" alt="">
+                <h5>10% off | ICICI Credit and Debit card</h5>
+                <p>Get 10% instant discount on ICICI Bank Credit & Debit Cards. Minimum purchase: Rs. 1000. Max Discount: Rs. 150. Valid twice per card per month. Discounted amount is shown on the bank page</p>
+            </div>
+            <div>
+                <img src="https://www.licious.in/img/default/offer.svg" alt="">
+                <h5>10% off | Kotak Credit and Debit card</h5>
+                <p>Get 10% instant discount on Kotak Bank Credit and Debit Cards. Minimum purchase: Rs. 1000. Max Discount: Rs. 175. Valid four times per card per month. Valid on Thursday and Friday. Discounted amount is shown on the bank page.</p>
+            </div>
+            <div>
+                <img src="https://www.licious.in/img/default/offer.svg" alt="">
+                <h5>10% off | CRED pay</h5>
+                <p>Pay using CRED pay and get 10% off upto Rs.100. T&Cs apply.</p>
+            </div>
+            <div>
+                <img src="https://www.licious.in/img/default/offer.svg" alt="">
+                <h5>Paytm Wallet</h5>
+                <p>Upto ₹500 cashback on minimum order value ₹600 on using Paytm Wallet. Minimum assured cashback ₹50. Valid twice per user per month. TnCs Apply.</p>
+            </div>
+            <div>
+                <img src="https://www.licious.in/img/default/offer.svg" alt="">
+                <h5>KreditBee Card</h5>
+                <p>Get 15% instant discount on KreditBee Card. Max Discount: Rs.200. Valid once per card per month. Discounted amount is shown on the bank page</p>
+            </div>
+            <div>
+                <img src="https://www.licious.in/img/default/offer.svg" alt="">
+                <h5>10% off | HSBC Credit Card</h5>
+                <p>Get 10% instant discount on HSBC Credit Cards. Minimum purchase: Rs. 1000. Max Discount: Rs. 125. Valid once per card per month. Valid from Monday to Friday. Discounted amount is shown on the bank page.</p>
+            </div>
+            <div>
+                <img src="https://www.licious.in/img/default/offer.svg" alt="">
+                <h5>10% off | Bank of Baroda Credit Cards</h5>
+                <p>Get 10% instant discount on Bank of Baroda Credit Cards. Minimum purchase: Rs. 1000. Max Discount: Rs. 150. Valid twice per card per month. Valid from Monday to Friday. Discounted amount is shown on the bank page.</p>
+            </div>
+            <div>
+                <img src="https://www.licious.in/img/default/offer.svg" alt="">
+                <h5>Amazon Pay</h5>
+                <p>Get Rs.25 cashback on Amazon Pay. Minimum purchase of Rs.500. Valid only once per user per month. TnCs applied.</p>
+        </div>
+        </div>
+      
+
+
+        
+    <div id="one">
+    
+      <div>
+        <br>
+        <br>
+        <label for="number">Enter card no
+            <br>
+            <br>
+         <input type="text"id="number"name="number"placeholder="Enter card no">
+         <br>
+         <br>
+         
+         <label for="location">MM / YYYY 
+        </label>
+        
+        
+        <br>
+        <br>
+         <input type="month"id="month"name="month"placeholder="MM / YYYY ">
+         <br>
+         <br>
+         <br>
+        
+         <label>Enter CVV</label>
+         <br>
+         <br>
+         <input type="cvv"id="cvv"name="cvv"placeholder="Enter CVV">
+         <br>
+         <br>
+         <br>
+        
+        
+         <label for="name">Name on card
+        </label>
+        <br>
+        <br>
+         <input type="name"id="name"name="name"placeholder="Name on card">
+         <br>
+         <br>
+         <br>
+         <input type="checkbox"id="checkbox">securely save card for future use
+         <br>
+         <br>
+         <br>
+        <div>
+           <button onclick="page"id="next">Pay</button>
+        </div>
+​
+         </div>
+    </div>
+
+
+
+
+        <div id="billdetails">
+            <h3 style="margin-left: 100px; font-size: 25px; text-decoration: underline;";>BILL DETAILS</h3>
+            <div id="subt">
+              <p style="color: black;">Subtotal</p>
+              <p id="total"></p>
+            </div>
+            <div>
+              <p style="color: black;">Delivery Charges</p>
+              <p id="deliverycharge" style="color: black;"> </p>
+            </div>
+            <div >
+              <p style="color: black;">Discount</p>
+              <p style="color: black; margin-left: 120px;">₹0</p>
+            </div>
+           
+            <div id="finalt">
+              <h3 style="margin-left: 30px;">Total</h3>
+              <h4 id="finaltotal" ></h4>
+            </div>  
+          </div> 
+           
+        <!-- prajakta append the table of the bill present    -->
+  
+</div>  
+    
+    
+</body>
+</html>
+<script>
+     document.getElementById("next").onclick = function () {
+         alert("4321 is your OTP for Payment")
+        location.href = "otp.html";
+     };
+
+
+
+     var finaltotal = JSON.parse(localStorage.getItem("finaltotal"));
+     var total = JSON.parse(localStorage.getItem("total"));   
+
+
+        if(total > 749){
+        var finaltotal = total +0;
+        document.querySelector("#total").textContent = `₹${total}`  
+        document.querySelector("#deliverycharge").textContent = `₹${0}`  
+        document.querySelector("#finaltotal").textContent = finaltotal;
+        }
+        else if (total < 749 && total > 0){
+            finaltotal = total + 39;
+            document.querySelector("#total").textContent = `₹${total}`  
+            document.querySelector("#deliverycharge").textContent = `₹${39}`
+            document.querySelector("#finaltotal").textContent = `₹${finaltotal}`;
+        }
+        else{
+            finaltotal = total + 0;
+            document.querySelector("#total").textContent = `₹${total}`  
+            document.querySelector("#deliverycharge").textContent = `₹${0}`
+            document.querySelector("#finaltotal").textContent = `₹${finaltotal}`;
+
+        }
+
+
+    console.log(total)
+    console.log(finaltotal)
+</script>

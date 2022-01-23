@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="header.css">
+    <link rel="stylesheet" type="text/css" href="footer.css">
+    <link rel="stylesheet" type="text/css" href="productpages.css">
+
+
+    <title>Chicken</title>
+
+
+</head>
+
+<body>
+<!-- header -->
+<div id="header">
+    <!-- done -->
+    <div id="header1tittlebar">
+        <div class="headerbox1" >
+            <div class="headerleftb">
+                <p class="headerp">Why Licious?</p>
+                <P class="headerp">Download App </P>
+                <img class="headerlogo1" src="https://www.licious.in/img/default/ios_app_icon.svg">
+                <img class="headerlogo1" src="https://www.licious.in/img/default/android_app_icon.svg">
+            </div>
+            <div class="headerrightb">
+                <p class="headerp">FSSC22000 Certification</p>
+                <p class="headerp">About</p>
+                <p class="headerp">Carrer  @Licious</p>
+                <p class="headerp"> Contact Us</p>
+            </div>
+        </div>
+    </div>
+    <!-- donee -->
+    <div id="header2tittlebar">
+        <div class="headerbox2">   
+            <div class="B2C1" onclick="window.location.href='mainHome.html'">
+                <img class="headerimg1" src="https://www.licious.in/img/default/licious-logo.svg" >
+            </div>
+    
+            <div class="headerlogoNm" >
+                <img class="headerlogosz" src="https://www.licious.in/img/default/location_icon.svg">
+                <select id="headerlocationtag">
+                    <option value="" >Select your location</option>
+                    <option value="Agra">Agra</option>
+                    <option value="Bangalore">Bangalore</option>
+                    <option value="Chennai">Chennai</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Hyderabad">Hyderabad</option>
+                    <option value="Nagpur">Nagpur</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Pune">Pune</option>
+                </select>
+            </div>
+            <div id="searchbox">
+                <input class="searchbar" type="search" placeholder="Search for any delicious product ">
+            </div>
+    
+            <div class="headerlogoNm headerleftaline" onclick="openForm()">
+                <img class="headerlogosz" src="https://www.licious.in/img/default/cart_icon.svg">
+                <p class="headerpad headerp" >Login</p>
+            </div>
+    
+            <div class="headerlogoNm headerleftaline" onclick="openFormm()">
+                <img class="logosz" src="https://www.licious.in/img/default/profile_icon.svg">
+                <span class="cart-items">(0)</span><p class="headerpad headerp">Cart</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="header3tittlebar">
+        <div class="headerbox3">
+            <div onclick="window.location.href='Megadeal.html'">
+                <img class="headerimg1" src="https://dao54xqhg9jfa.cloudfront.net/OMS-Category/5ca3730e-b1f5-8aff-922a-681f5820d60b/original/Artboard_131@3x_(4).png?format=webp">
+                <p class="headerp">Mega Deals</p>
+            </div>
+            <div onclick="window.location.href='chicken.html'">
+                <img class="headerimg1" src="https://dao54xqhg9jfa.cloudfront.net/Category/a2996820-bac5-5eb5-edf8-eae5bff352ce/original/1592902158.6637--2020-06-2314_19_18--472.png?format=webp">
+                <P class="headerp">Chiken</P>
+            </div>
+            <div onclick="window.location.href='fishSeafood.html'">
+            <img class="headerimg1" src="https://dao54xqhg9jfa.cloudfront.net/Category/574f3ef3-e983-e441-ac54-af394e1dc0d1/original/1592241659.9546--2020-06-1522_50_59--472.png?format=webp">
+            <P class="headerp">Fish & Seafood</P>
+            </div>
+            <div onclick="window.location.href='mutton.html'">
+                <img class="headerimg1" src="https://dao54xqhg9jfa.cloudfront.net/Category/493a653d-56cb-fc9a-7a33-5b30c1a3d27e/original/1592241599.8492--2020-06-1522_49_59--472.png?format=webp">
+                <P class="headerp">Mutton</P>
+            </div>
+            <div onclick="window.location.href='readytocook.html'">
+                <img class="headerimg1" src="https://s3-ap-southeast-1.amazonaws.com/licious/cat/4/web_icon/1618835088.2308--2021-04-1917:54:48--472?format=webp">
+                <P class="headerp">Ready to Cook</P>
+            </div>
+            <div onclick="window.location.href='spread.html'">
+                <img class="headerimg1" src="https://dao54xqhg9jfa.cloudfront.net/Category/1aebd012-022b-0e44-a673-21818a98320c/original/1592241756.9036--2020-06-1522_52_36--472.png?format=webp">
+                <P class="headerp">Spreads</P>
+            </div>
+            <div onclick="window.location.href='egg.html'">
+                <img class="headerimg1" src="https://dao54xqhg9jfa.cloudfront.net/Category/06eb2239-1fcc-a5de-2d57-a0081bca5c80/original/1592241843.644--2020-06-1522_54_03--472.png?format=webp">
+                <P class="headerp">Eggs</P>
+            </div>
+            <div  onclick="window.location.href='coldcuts.html'">
+                <img class="headerimg1" src="https://dao54xqhg9jfa.cloudfront.net/Category/feaaee0e-eb81-2444-c869-952cf0858977/original/1592241896.5018--2020-06-1522_54_56--472.png?format=webp">
+                <P class="headerp">CutsCold Cuts</P>
+            </div>
+            <div onclick="window.location.href='combo.html'">
+                <img class="headerimg1" src="https://s3-ap-southeast-1.amazonaws.com/licious/cat/37/web_icon/1612872334.9746--2021-02-0917:35:34--472?format=webp">
+                <P class="headerp">Combos</P>
+            </div>
+            <div onclick="window.location.href='prawns.html'">
+                <img class="headerimg1" src="https://s3-ap-southeast-1.amazonaws.com/licious/cat/42/web_icon/1612850724.2211--2021-02-0911:35:24--472?format=webp">
+                <P class="headerp">Prawns</P>
+            </div>
+            <div class="headerincwid" onclick="window.location.href='kebabs&tandoor.html'">
+                <img class="headerimg1" src="https://s3-ap-southeast-1.amazonaws.com/licious/cat/39/web_icon/1615189641.1944--2021-03-0813:17:21--472?format=webp">
+                <P class="headerp"> Kebabs & Tandoor</P>
+            </div>
+            <div class="headerincwid" onclick="window.location.href='supersaverpack.html'">
+                <img class="headerimg1" src="https://s3-ap-southeast-1.amazonaws.com/licious/cat/31/web_icon/1615563547.1026--2021-03-1221:09:07--472?format=webp">
+                <P class="headerp">Super Saver</P>
+            </div>
+            <div onclick="window.location.href='snaks.html'">
+                <img class="headerimg1" src="https://s3-ap-southeast-1.amazonaws.com/licious/cat/67/web_icon/1636101435.3459--2021-11-0514:07:15--472?format=webp">
+                <P class="headerp">Snacks</P>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div id="product">
+        <div id="main_container-prod">
+        
+            <div id="Container-prod"></div>
+                
+            </div>
+    </div>
+
+
+
+
+    <div id="mainbox">
+        <!-- in the news -->
+        <div id="inTheNews">
+
+            <div class="newsHead">
+                <li id="newsLi">In the News</li>
+            </div>
+
+            <div class="newsElements">
+                <div class="newsItems">
+                    <img 
+                    id="newsimgid"
+                    src="https://d2407na1z3fc0t.cloudfront.net/inTheNews/26/inthenews_61a2479fba71d">
+                    <span id="newsspan">Licious announces continuous liquidity of ESOPs from 2022</span>
+                </div>
+
+                <div class="newsItems">
+                    <img 
+                    id="newsimgid"
+                    src="https://d2407na1z3fc0t.cloudfront.net/inTheNews/27/inthenews_61a248a937ab5">
+                    <span id="newsspan">They slayed COVID, went on to build a unicorn: Meet</span>
+                </div>
+
+                <div class="newsItems">
+                    <img 
+                    id="newsimgid"
+                    src="https://d2407na1z3fc0t.cloudfront.net/inTheNews/35/inthenews_61a250d471d48">
+                    <span id="newsspan">Licious announces continuous liquidity of ESOPs from 2022</span>
+                </div>
+
+                <div class="newsItems">
+                    <img 
+                    id="newsimgid"
+                    src="https://d2407na1z3fc0t.cloudfront.net/inTheNews/30/inthenews_61a24b7143569">
+                    <span id="newsspan">India's Licious becomes unicorn with $52 million fresh fundraise</span>
+                </div>
+
+                <div class="newsItems">
+                    <img 
+                    id="newsimgid"
+                    src="https://d2407na1z3fc0t.cloudfront.net/inTheNews/29/inthenews_61a24ac16ac9d">
+                    <span id="newsspan">Licious founders on building a unicorn startup</span>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- licious footer first main image. -->
+        <div id="licious">
+            <img id="imgwidth1"src="https://www.licious.in/img/default/licious-logo.svg">
+        </div>
+
+        <div id="Upperpart">
+            <!-- usefull links section -->
+            <div id="usefulLinks">
+                <li id="weight">USEFUL LINKS</li>
+                <li><a href="https://www.licious.in/about-us" target="_blank">Why Licious?</a></li>
+                <li><a href="https://www.licious.in/refer-earn-tnc" target="_blank">Refer & Earn</a></li>
+                <li><a href="https://www.licious.in/licious-cash" target="_blank" >Licious Cash & Cash+</a></li>
+                <li><a href="http://careers.licious.in" target="_blank">Careers</a></li>
+                <li><a href="https://www.licious.in/blog/" target="_blank">BLOG</a></li>
+                <li><a href="https://www.licious.in/campaign" target="_blank">Campaign</a></li>
+                <li><a href="https://www.licious.in/bug-bounty-guidelines" target="_blank">Big Bounty Guidelines</a></li>
+                <li><a href="https://www.licious.in/about-us-new" target="_blank">About Us</a></li>
+                <li><a href="https://www.licious.in/certification" target="_blank">FSSC 22000 Certification</a></li>
+                <li><a href="https://www.licious.in/fssai-licenses" target="_blank">FSSAI Licenses</a></li>
+                <li><a href="https://www.licious.in/sitemap" target="_blank">Sitemap</a></li>
+            </div>
+
+            <!-- Download app sections -->
+            <div id="Download">
+                <li id="weight">EXPERIENCE LICIOUS APP ON MOBILE</li>
+
+                <div class="DownloadImgbox">
+                    <a href="https://itunes.apple.com/in/app/buy-meat-online-licious/id1052440342?mt=8" target="_blank" >
+                        <img 
+                        id="downloading"
+                        src="	https://www.licious.in/img/newtheme/app-store-new.svg">
+                    </a>
+
+                    <a href="https://play.google.com/store/apps/details?id=com.licious">
+                        <img 
+                        id="downloading"
+                        src="	https://www.licious.in/img/newtheme/play-store-new.png">
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- Contact Us -->
+            <div id="contactUsList">
+                <li id="weight"> CONTACT US</li>
+                <li>Call: 1800-4190-786</li>
+                <li>Talktous@licious.com</li>
+                <br />
+
+                <li id="weight"> REGISTERED OFFICE ADDRESS:</li>
+                <li>House of Licious, Zed Pearl, No 12,</li>
+                <li>Domlur Layout</li>
+                <li>Bangalore, Karnataka - 560071</li>
+            </div>
+
+            <!-- terms&conditions -->
+            <div id="essentialList">
+                 <li> <a href="https://www.licious.in/terms" target="_blank" >T&C</a></li>
+                 <li> <a href="https://www.licious.in/faq" target="_blank"> FAQ</a></li>
+                 <li> <a href="https://www.licious.in/privacy-policy" target="_blank">Privacy Policy</a></li>
+
+                 <li id="weight">HAVE SECURITY CONCERN?</li>
+                 <li>Mail us to:</li>
+                 <li>security@licious.com</li>
+            </div>
+
+            <!-- /* verfification */ -->
+            <div id="verification">
+                <img 
+                id="verifImg"
+                src="https://www.licious.in/img/default/3-dsecure.png" alt="" srcset="">
+            </div>
+        </div>
+
+         <!-- keep in touch [Middle Part]-->
+        <div id="keepInTouch">
+
+            <span class="keeptext"> Keep In Touch </span>
+            <a href="https://www.instagram.com/licious_foods/" target="_blank" >
+                <img 
+                id="keepimg"
+                src="https://www.licious.in/img/default/insta_color.png" alt="Instaram">
+            </a>
+
+            <a href="https://www.facebook.com/LiciousFoods/" target="_blank" >
+                <img 
+                id="keepimg"
+                src="https://www.licious.in/img/default/fb_color.png" alt="facebook">
+            </a>
+
+            <a href="https://twitter.com/LiciousFoods" target="_blank" >
+                <img 
+                id="keepimg"
+                src="https://www.licious.in/img/default/twitter_color.png" alt="twitter">
+            </a>
+
+        </div>
+
+        <div id="cityHeader">
+            <span class="cHead">
+                CITIES WE SERVE
+            </span>
+        </div>
+
+        <!-- city - names -->
+        <div id="cityNames">
+            <a class="city" href="">Bengaluru</a>
+            <a class="city" href="">NCR</a>
+            <a class="city" href="">Hyderabad</a>
+            <a class="city" href="">Chandigarh</a>
+            <a class="city" href="">Panchkula</a>
+            <a class="city" href="">Mohali</a>
+            <a class="city" href="">Mumbai</a>
+            <a class="city" href="">Pune</a>
+            <a class="city" href="">Chennai</a>
+            <a class="city" href="">Coimbatore</a>
+            <a class="city" href="">Jaipur</a>
+            <a class="city" href="">Cochin</a>
+            <a class="city" href="">VijayWada</a>
+            <a class="city" href="">Vishakhapatnam</a>
+            <a class="city" href="">Pondicherry</a>
+            <a class="city" href="">Trichy</a>
+        </div>
+
+        <!-- popular search  -->
+        <div id="PopularS">
+            <h2>Popular Searches</h2>
+        </div>
+
+        <hr>
+
+        <!-- Information about licious -->
+        <div id="questions">
+            <h4>We will sell only the meat that we would eat ourselves.</h4>
+            <p>At Licious, were big meat-lovers. And by big, we mean huge. So when it comes to the meat we put on your plate, were extremely picky. Every single product is handpicked by a team with years of experience.</p>
+
+            <h4>If it's not fresh, we won't sell it.</h4>
+            <p>For meat to stay fresh and retain its natural juices, it needs to be stored at a temperature between 0° and 5°C. We maintain this temperature from the time we procure the product to cleaning, cutting and storing it, until it leaves for delivery. And even when it's out for delivery, we keep it chilled right up to your doorstep.Did we mention that we're obsessed?</p>
+
+            <h4>We will charge only for what you buy.</h4>
+            <p>Doesn't everyone do this? Not really. Most other places first weigh the meat, then cut up the pieces, and throw out the parts which aren't fit to eat, such as offal, gizzard, wingtips, etc. But you still pay based on the original weight even though what you finally get is 10% to 30% less.</p>
+        </div>
+
+        <hr>
+        <!-- end part disclaimer -->
+        <div id="disclaimer">
+            <div>
+                <p class="centerone">2022 Delightful Gourmet Pvt Ltd. All Rights Reserved.</p>
+                <p class="centertwo">Licious is your one-stop fresh meat delivery shop. In here, you get nothing but the freshest meat & seafood, delivered straight to your doorstep. Now you can buy
+                    meat online anytime at your convenience. Indulge in our diverse selection: Chicken,
+                    Mutton, Seafood (Fish, Prawns, Crabs), Marinades & Cold Cuts. All our products are 
+                    completely natural and healthy. Once you've experienced Licious, you'll never
+                    go back to the old way of buying meat and seafood.</p>
+            </div>
+        </div>
+
+    </div>
+
+
+ 
+</body>
+</html>
+
+
+
+
+<script>
+
+       
+    var chicken = [
+        {
+            imageUrl: "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_id9jjmp0h34/1/prod_display_image/1634295636.8042--2021-10-1516:30:36--905",
+            name: "Chicken Drumstick",
+            price: "229",
+            netWt: "500gms",
+            gross: "662gms",
+            smallpara:"Cuts of tender chicken leg, perfect for biryanis",
+            link : "ChickenCutlet(pmega).html",
+        },
+        {
+            imageUrl: "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_ffojtznsds8/1/prod_display_image/1636890653.7229--2021-11-1417:20:53--905",
+            name: "Chicken Boneless - Cubes",
+            price: "485",
+            netWt: "320gms",
+            gross: "362gms",
+            smallpara:"Cuts of tender chicken leg, perfect for biryanis",
+            link : "ChickenCutlet(pmega).html",
+    
+        },
+        {
+            imageUrl: "https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/20d109d9-4080-0fa3-eb41-7ce139680d56/original/1631076727.jpg",
+            name: "Cicken Whole, With Skin",
+            price: "295",
+            netWt: "1100gms",
+            gross: "1200gms",
+            smallpara:"Cuts of tender chicken leg, perfect for biryanis",
+            link : "ChickenCutlet(pmega).html",
+    
+        },
+        {
+            imageUrl: "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_ffojtgw0vql/1/prod_display_image/1613380241.2481--2021-02-1514:40:41--738",
+            name: "Chicken Soup Bones- (Masala)",
+            price: "115",
+            netWt: "250gms",
+            gross: "322gms",
+            smallpara:"Cuts of tender chicken leg, perfect for biryanis",
+            link : "ChickenCutlet(pmega).html",
+    
+        },
+        {
+            imageUrl: "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_9fpkmbudlyi/1/prod_display_image/1616492902.3219--2021-03-2315:18:22--738",
+            name: "Smoky Chicken - Curry Cut",
+            price: "425",
+            netWt: "250gms",
+            gross: "262gms",
+            smallpara:"Cuts of tender chicken leg, perfect for biryanis",
+            link : "ChickenCutlet(pmega).html",
+    
+        },
+        {
+            imageUrl: "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_fhijtzoq66l/1/prod_display_image/1636908498.6166--2021-11-1422:18:18--1818",
+            name: "Chicken Mince",
+            price: "215",
+            netWt: "320gms",
+            gross: "362gms",
+            smallpara:"Cuts of tender chicken leg, perfect for biryanis",
+            link : "ChickenCutlet(pmega).html",
+    
+        },
+        {
+            imageUrl: "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_3nqjtznab5c/1/prod_display_image/1636908289.9261--2021-11-1422:14:49--1818",
+            name: "Chicken Breast",
+            price: "239",
+            netWt: "320gms",
+            gross: "362gms",
+            smallpara:"Cuts of tender chicken leg, perfect for biryanis",
+            link : "ChickenCutlet(pmega).html",
+    
+        },
+        {
+            imageUrl: "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_fagkepqge4h/1/prod_display_image/1636892065.5206--2021-11-1417:44:25--905",
+            name: "Chicken Liver",
+            price: "375",
+            netWt: "245gms",
+            gross: "290gms",
+            smallpara:"Half a chicken cut to chunky pieces including Two leg. ",
+            link : "ChickenCutlet(pmega).html",
+        },
+        {
+            imageUrl: "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/a06eff60-178d-d735-263a-46b16be049ce/original/1599654487.3108--2020-09-0917_58_07--472.jpeg",
+            name: "Chicken Gizzard",
+            price: "55",
+            netWt: "500gms",
+            gross: "560gms",
+            smallpara:"Half a chicken cut to chunky pieces including Two leg. ",
+            link : "ChickenCutlet(pmega).html",
+    
+        },
+        {
+            imageUrl: "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_5785b8848e486/1/prod_display_image/1574679300.1389--2019-11-2516:25:00--539",
+            name: "Chicken Leg Whole with Thigh",
+            price: "509",
+            netWt: "550gms",
+            gross: "675gms",
+            smallpara:"Half a chicken cut to chunky pieces including Two leg. ",
+            link : "ChickenCutlet(pmega).html",
+    
+        },
+        {
+            imageUrl: "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_7kyknomrcdb/1/prod_display_image/1620412271.5531--2021-05-0800:01:11--738",
+            name: "Chicken Tangdi - Biryani Cut",
+            price: "289",
+            netWt: "390gms",
+            gross: "430gms",
+            smallpara:"Half a chicken cut to chunky pieces including Two leg. ",
+            link : "ChickenCutlet(pmega).html",
+    
+        },
+        {
+            imageUrl: "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_fhijtgw0ctk/1/prod_display_image/1613378266.2769--2021-02-1514:07:46--738",
+            name: "Chicken Soup Bones",
+            price: "527",
+            netWt: "290gms",
+            gross: "340gms",
+            smallpara:"Half a chicken cut to chunky pieces including Two leg. ",
+            link : "ChickenCutlet(pmega).html",
+    
+        },
+        {
+            imageUrl: "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/4b40f483-c249-1e77-04e8-ce9967ea15ea/original/1585310760.8249--2020-03-2717_36_00--738.jpeg",
+            name: "Chicken Curry Cut",
+            price: "134",
+            netWt: "350gms",
+            gross: "400gms",
+            smallpara:"Half a chicken cut to chunky pieces including Two leg. ",
+            link : "ChickenCutlet(pmega).html",
+    
+        },
+        {
+            imageUrl: "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/0ba8a29c-3744-94f7-f312-19a48e6be1d2/original/1603451874.1969--2020-10-2316_47_54--738.jpeg",
+            name: "Chicken Fry Cut",
+            price: "179",
+            netWt: "328gms",
+            gross: "360gms",
+            smallpara:"Half a chicken cut to chunky pieces including Two leg. ",
+            link : "ChickenCutlet(pmega).html",
+    
+        },
+        {
+            imageUrl: "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/9feb174c-9dfb-e233-2ce1-d0aa4cdf9e10/original/1574094605.1122--2019-11-1822_00_05--458.jpeg",
+            name: "Chicken Tenders",
+            price: "239",
+            netWt: "420gms",
+            gross: "552gms",
+            smallpara:"Half a chicken cut to chunky pieces including Two leg. ",
+            link : "ChickenCutlet(pmega).html",
+    
+        },
+    ];
+    
+    localStorage.setItem("chicken" ,JSON.stringify(chicken));
+       
+         var cartarr = JSON.parse(localStorage.getItem("cartitems"))||[];
+    
+          chicken.map(function(item){
+           var div = document.createElement("div");
+           
+    
+           var megaimage = document.createElement("img");
+           megaimage.setAttribute("src", item.imageUrl);
+           megaimage.setAttribute("class" , "megaimg1")
+    
+           var megaName = document.createElement("p");
+           megaName.textContent = item.name;
+           megaName.setAttribute("class", "megaName1")
+    
+           var megapara = document.createElement("p");
+           megapara.textContent = item.smallpara;
+           megapara.setAttribute("class", "megapara1")
+    
+           var divWt = document.createElement("div");
+           divWt.setAttribute("class" , "Megaflex1")
+           
+           var mp1 = document.createElement("p");
+           mp1.textContent = `Net wt : ${item.netWt}`;
+           var mp2 = document.createElement("p");
+           mp2.textContent = `Gross: ${item.gross}`;
+           divWt.append(mp1, mp2);
+    
+           var divPr = document.createElement("div");
+           
+           var divPrinside = document.createElement("div");
+           divPrinside.setAttribute("class" , "Megaflex2")
+           
+           var mp3 = document.createElement("p");
+           mp3.textContent = `₹${item.price}`;
+           mp3.setAttribute("class" , "mp3")
+           var mp4 = document.createElement("p");
+           mp4.textContent = item.strikedOffPrice;
+           mp4.setAttribute("class" , "mp4")
+    
+           var megabutton = document.createElement("button");
+           megabutton.textContent = "ADD TO CART";
+    
+           megabutton.addEventListener("click", function(){
+               addTocart(item);
+           });
+           megabutton.setAttribute("class" , "megabutton")
+    
+           divPrinside.append(mp3, mp4 ,megabutton );
+    
+           divPr.append(divPrinside)
+    
+           divhr = document.createElement("hr")
+           divhr.setAttribute("class" , "Megadivhr")
+    
+           var divDvy = document.createElement("div");
+    
+           var divDinside = document.createElement("div");
+           divDinside.setAttribute("class" , "Megaflex3")
+    
+           var megaicon = document.createElement("img");
+           megaicon.setAttribute("src", "https://www.licious.in/img/default/express_delivery.svg");
+    
+           var mp5 = document.createElement("p");
+           mp5.textContent = "Tommorrow 7AM-10PM";
+    
+           divDinside.append(megaicon, mp5)
+           divDvy.append(divDinside)
+    
+
+           megaimage.onclick = function () {
+           location.href = item.link;
+           };
+    
+    
+           div.append(megaimage , megaName, megapara, divWt, divPr,divhr,divDvy );
+    
+           document.querySelector("#Container-prod").append(div)
+       });
+       
+            function addTocart(item){
+    
+            var cartData = {
+                name : item.name,
+                netWt : item.netWt,
+                price : item.price,  
+            };
+            //    console.log(item.name, item.netWt, item.price);
+            //    cartarr.push(item.name, item.netWt, item.price);
+    
+            cartarr.push(cartData)
+            console.log(cartarr)
+            localStorage.setItem("cartitems" , JSON.stringify(cartarr));
+    
+            }
+            
+           
+    </script>
+
+
