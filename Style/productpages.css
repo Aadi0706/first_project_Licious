@@ -1,0 +1,125 @@
+
+        #main_container-prod{
+            width: 100%;
+            /* border: 1px solid red; */
+            margin: auto;
+        }
+        #Container-prod{
+            width: 1150px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+
+        }
+
+        #Container-prod > div{
+        
+            /* height: 470px; */
+            height: auto;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+            border-radius: 10px;
+        }
+
+        .megaimg1{
+            width: 100%;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            cursor: pointer;
+           
+        }
+        /* edited here---------- */
+        .megaName1{
+            color:rgb(74, 74, 74);
+            font-size: 15px;
+            font-weight: 600;
+            padding-left: 13px;
+            padding-top: 10px;
+            margin-bottom: 15px;
+            margin-top: 5px;
+            /* edited */
+            margin-bottom: 30px;
+
+        }
+
+        .megapara1{
+            font-family: 'Source Sans Pro';
+            font-size: 14px;
+            color: #727272;
+            line-height: 1.2;
+            /* white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden; */
+            /* padding: 5px; */
+            padding-left: 12px;
+            font-weight:400;
+            /* border: 1px solid yellow; */
+            margin-bottom: 0px;
+
+        }
+        /* edited here---------- */
+        .Megaflex1{
+            display: flex;
+            justify-content: space-between;
+            /* padding-left: 15px;
+            padding-right: 15px; */
+            /* border: 1px solid green; */
+            padding: 10px 15px;
+            /* margin-top: 35px; */
+            
+        }
+        .Megaflex2{
+            display: flex;
+            justify-content: space-between;
+            padding-left: 5px;
+            /* border: 1px solid yellow; */
+        }
+        .Megaflex3{
+            display: flex;
+            justify-content: center;
+            /* border: 1px solid red; */
+            /* edited---- */
+            padding: 5px;
+        }
+
+        .megabutton{
+            width: 30%;
+            height: 30px;
+            margin-top: 10px;
+            margin-right: 10px;
+            background-color: rgb(228,29,54);
+            color: white;
+            border: 0px;
+            border-radius: 10px;
+            font-size:11px;
+            padding:10px 12px;
+
+        }
+
+        .mp3{
+            float: left;
+            font-size: 18px;
+            color: rgb(228, 29, 54);
+            font-weight: 600;
+            line-height: 2;
+            overflow: hidden;
+            white-space: nowrap;
+            margin-left: 10px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+              
+        }
+
+        .mp4{
+            text-decoration: line-through;
+            color: rgb(174, 174, 174);
+            font-size: 16px;
+            font-weight: 500;
+            margin-top: 16px;
+            /* edited ----*/
+            padding-bottom: 10px;
+        }
+
+        .Megadivhr{
+            margin: 0px;
+        }

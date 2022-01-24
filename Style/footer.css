@@ -1,0 +1,204 @@
+#mainbox{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    /* border: 2px solid red; */
+    font-family: Roboto,sans-serif;
+}
+#imgwidth1{
+    /* border: 2px solid red; */
+    width: 140px;
+    margin-bottom: 15px;
+    padding: 4px;
+    padding-top: 55px;
+}
+#usefulLinks{
+    width: 15%;
+    /* border: 2px solid red; */
+    font-size: 14px;
+    line-height: 1.8;
+    /* border-right: 2px solid #110f0f; */
+    margin-left: 3px;
+    margin-right: 10px;
+}
+li{
+    list-style-type: none
+}
+a{
+    color: #4a4a4a;
+    text-decoration: none;
+}
+#Upperpart{
+    display: flex;
+    /* border: 4px solid rgb(116, 113, 113); */
+    width: 100%;
+}
+
+/* for specific list (Heading) */
+#weight{
+    font-weight: 600;
+    color: #4a4a4a;
+    font-size: 14px;
+    line-height: 1.8;
+    /* display: block;
+    overflow: hidden; */
+}
+#Download{
+    display: block;
+    width: 28%;
+    /* border: 2px solid red; */
+    margin-right: 15px;
+    border-right: 2px solid #948d8d;
+
+}
+.DownloadImg > a{
+    display: flex;
+    width: 122px;
+}
+
+/* images to download */
+.DownloadImgbox > a > #downloading{
+    width: 130px;
+    padding: 0px;
+    padding-top: 0px;
+}
+
+/* font color size & line height */
+#contactUsList > li{
+    color: #4a4a4a;
+    font-size: 14px;
+    line-height: 1.8;
+}
+#contactUsList{
+    /* border: 2px solid red; */
+    margin-right: 5px;
+}
+#essentialList > li{
+    padding-left: 15px;
+    /* border: 2px solid red; */
+    color: #4a4a4a;
+    font-size: 14px;
+    line-height: 1.8;
+}
+#verification > #verifImg{
+    width: 120px;
+}
+#keepInTouch{
+    text-align: center;
+    width: 40%;
+    /* border: 2px solid red; */
+    font-weight: 600;
+    margin-right: 116px;
+    color: #4a4a4a;
+    line-height: 1;
+    margin: 20px
+}
+
+/* imgs of insta twitter fb */
+#keepimg{
+    vertical-align: middle;
+    width: 22px;
+    padding: 4px;
+}
+#cityHeader > .cHead{
+    color: #4a4a4a;
+    font-weight: 550;
+    margin: 15px 0px;
+ }
+#cityNmaes{
+    display: flex;
+}
+#cityNames > .city{
+    font-size: 13px;
+    display: inline;
+    color: #4a4a4a;
+    text-decoration: none;
+    margin-right: 20px;
+    padding-right: 20px;
+    border-right: 1px solid #c2c2c2;
+}
+
+/* popular search */
+#PopularS{
+    margin: 0;
+    font-size: 14px;
+    color: #4a4a4a;
+    line-height: 1.9
+}
+
+/* disclaimer & centerpart color font needed to edit */
+#questions > h4{
+    font-weight: 600;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #4a4a4a;
+}
+#questions > p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5;
+    background: #fcfcfc;
+    color: #4a4a4a;
+}
+#disclaimer {
+    text-align: center;
+    font-family: Roboto,sans-serif;
+    color: #4a4a4a;
+    line-height: 1.5;
+    font-size: 12px;
+    padding: 13px;
+}
+.centerone{
+    font-weight: 750;
+}
+
+
+/* in the news properties. */
+.newsHead > #newsLi{
+    font-size: 28px;
+    margin: 0;
+    font-weight: 600;
+    color: #3e4d60;
+    line-height: 3; 
+    font-weight: 600;
+}
+
+.newsElements{
+    display: flex;
+    /* border: 2px solid red; */
+}
+#newsimgid{
+    background: #fff;
+    box-shadow: 0 0.79px 9.16px rgb(0 0 0 / 20%);
+    border-radius: 5.52px;
+    width: 90%;
+    height: 160px;
+    object-fit: contain;
+    margin-top: 3px;
+}
+
+#newsspan{
+    margin-top: 8px; 
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4a4a4a;
+    padding: 5px;
+    /* margin:  20px; */
+
+    /*  this will hide more text which does not needed */
+    /* -webkit-line-clamp: 2; */
+    display: -webkit-box;
+    /* -webkit-box-orient: vertical; */
+
+}
+#newsItems{
+    margin: 10px;
+}
+
+/* newly added */
+#decoration{
+    text-decoration: none;
+    color: #4a4a4a;
+
+}

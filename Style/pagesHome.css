@@ -1,0 +1,132 @@
+        #main_container-prod{
+            width: 1160px;
+            /* border: 1px solid red; */
+            margin: auto;
+        }
+        #Container-prod{
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+
+        .home-heading-h2{
+            font-family: lato;
+            font-size: 22px;
+            color: #4a4a4a;
+            font-weight: 700;
+            margin: 35px 0 5px 6px;
+            display: inline-block;
+
+        }
+
+        .home-heading-h3{
+            font-family: lato;
+            font-size: 22px;
+            color: #4a4a4a;
+            font-weight: 700;
+            margin: 40px 0 40px 6px;
+            display: inline-block;
+
+        }
+
+        #Container-prod > div{
+            /* border: 1px solid blue; */
+            height: 460px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
+        }
+
+        .megaimg1{
+            width: 100%;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .megaName1{
+            color:rgb(74, 74, 74);
+            font-size: 15px;
+            font-weight: 600;
+            padding-left: 15px;
+            margin-top: 20px;
+
+        }
+
+        .megapara1{
+            font-family: 'lato';
+            font-size: 14px;
+            color: #727272;
+            line-height: 1.2;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            padding-left: 15px;
+            font-weight:400;
+
+        }
+        .Megaflex1{
+            display: flex;
+            justify-content: space-between;
+            padding-left: 15px;
+            padding-right: 15px;
+            margin-top: -5px;
+            margin-bottom: -22px;
+            width: 275px;
+            color: #4a4a4a;
+            font-family: lato;
+            font-size: 14px;
+            font-weight: 600;
+        }
+        .Megaflex2{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 0px;
+            padding-left: 5px;
+        }
+        .Megaflex3{
+            display: grid;
+            grid-template-columns: 10% 90%;
+            padding-top: 5px;
+            padding-left: 25%;
+            color: #aeaeae;
+        }
+
+        .megabutton{
+            font-size: 12px;
+            font-weight: 600;
+            width: 100px;
+            height: 36px;
+            margin-top: 15px;
+            margin-right: 10px;
+            background-color: rgb(228,29,54);
+            color: white;
+            border: 0px;
+            border-radius: 5px;
+
+        }
+
+        .mp3{
+            float: left;
+            font-size: 18px;
+            color: rgb(228, 29, 54);
+            font-weight: 600;
+            line-height: 2;
+            overflow: hidden;
+            white-space: nowrap;
+            margin-left: 10px;
+            margin-bottom: 8px;
+              
+        }
+
+        .mp4{
+            color: rgb(174, 174, 174);
+            font-size: 16px;
+            font-weight: 500;
+            margin-top: 25px;
+            margin-left: 10px;
+        }
+
+        .Megadivhr{
+            margin: 0px;
+        }
