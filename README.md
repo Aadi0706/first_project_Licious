@@ -12,8 +12,8 @@ Deployed Link of the Project- https://licious-clone.netlify.app/
 HTML, CSS, JavaScript, Local Storage, Bootstrap.
 
 ## Project
-[Video Presentation]
-[Blog Link](https://medium.com/@adityachoubey07/the-journey-behind-the-clone-of-licious-3429dbfd911a)
+- [Video Presentation]
+- [Blog Link](https://medium.com/@adityachoubey07/the-journey-behind-the-clone-of-licious-3429dbfd911a)
 
 ## Team Members and Contributors
 - Aditya Choubey
