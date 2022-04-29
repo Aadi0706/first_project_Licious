@@ -7,7 +7,7 @@ I and my team got an oppotunity to build a website in the construct week of Unit
 Deployed Link of the Project- https://licious-clone.netlify.app/
 <hr/>
 
-## Tech Satck
+## Tech Stack
 
 HTML, CSS, JavaScript, Local Storage, Bootstrap.
 
