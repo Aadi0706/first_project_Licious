@@ -1,3 +1,5 @@
 # first_project_Licious
-This is my very first Project which I build, in my project I have build the clone of licious website. It has been a fantastic experience till now and I had learnt a lot in bringing the 
-the html, css, Javascript towards achievement of the task of building the website. Specially the cart functionality to achieve in order to complete the user flow.
+I and my team got an oppotunity to build a website in the construct week of Unit-2 in Masai School. We constructed the Clone of Licious.in - an online raw meat provider.
+
+![image](https://user-images.githubusercontent.com/97503774/165973314-e1cb1d72-8b38-4324-9a5e-b958bed6c3c5.png)
+
