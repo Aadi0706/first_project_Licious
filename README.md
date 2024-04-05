@@ -4,7 +4,7 @@ I and my team got an oppotunity to build a website in the construct week of Unit
 ![image](https://user-images.githubusercontent.com/97503774/165973314-e1cb1d72-8b38-4324-9a5e-b958bed6c3c5.png)
 
 <hr/>
-Deployed Link of the Project- https://licious-clone.netlify.app/
+Deployed Link of the Project- https://the-licious-clone.netlify.app/
 <hr/>
 
 ## Tech Stack
